@@ -34,7 +34,7 @@ describe('Testing request', function() {
             })
         });
 
-        it('should have status 400 if an empty signup form has been submited', function(done) {
+        it('should have status 400 if an empty signup form has been submitted', function(done) {
 
             req.post(url+"signup", function(err, res, body) {
                 expect(res.statusCode).to.equal(400);
@@ -42,7 +42,7 @@ describe('Testing request', function() {
             })
         });
 
-        it('should have status 400 if an empty signin form has been submited', function(done) {
+        it('should have status 400 if an empty signin form has been submitted', function(done) {
             req.post(url+"signin", function(err, res, body) {
                 expect(res.statusCode).to.equal(400);
                 done()
@@ -73,7 +73,7 @@ describe('Testing request', function() {
     });
 
     describe('Testing empty feedback input', function() {
-        it('should be redirect if password is correct', function(done) {
+        it('should be redirected if password is correct', function(done) {
             req.post(url+"feedback", function(err, res, body){
                 expect(res.statusCode).to.equal(302);
                 done();
