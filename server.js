@@ -22,7 +22,7 @@ app.use(compress()); /*using compression*/
 var db = new sqlite3.Database('db.sqlite');
 db.serialize();
 
-/* using nunjucks as templet*/
+/* using nunjucks as a template*/
 nunjucks.configure('views', { autoescape: true, express: app });
 
 app.use(express.static(__dirname + '/assets'));
