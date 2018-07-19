@@ -1,4 +1,7 @@
 # UofT Exchange
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/yanrs17/UofT-Exchange.svg)](https://greenkeeper.io/)
+
 CSC309 Assignment 4
 
 ## Login Information
