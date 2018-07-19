@@ -50,8 +50,8 @@
     "url": "https://github.com/Automattic/socket.io-adapter/issues"
   },
   "dependencies": {
-    "debug": "2.2.0",
-    "socket.io-parser": "2.2.2"
+    "debug": "3.1.0",
+    "socket.io-parser": "3.2.0"
   },
   "description": "Default socket.io in-memory adapter class.",
   "devDependencies": {},
