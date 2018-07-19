@@ -69,21 +69,21 @@
     }
   ],
   "dependencies": {
-    "debug": "2.2.0",
-    "engine.io": "1.6.11",
+    "debug": "3.1.0",
+    "engine.io": "3.2.0",
     "has-binary": "0.1.7",
-    "socket.io-adapter": "0.4.0",
-    "socket.io-client": "1.4.8",
-    "socket.io-parser": "2.2.6"
+    "socket.io-adapter": "1.1.1",
+    "socket.io-client": "2.1.1",
+    "socket.io-parser": "3.2.0"
   },
   "description": "node.js realtime framework server",
   "devDependencies": {
     "expect.js": "0.3.1",
-    "istanbul": "0.4.1",
-    "mocha": "2.3.4",
-    "superagent": "1.6.1",
-    "supertest": "1.1.0",
-    "zuul-ngrok": "3.2.0"
+    "istanbul": "0.4.5",
+    "mocha": "5.2.0",
+    "superagent": "3.8.3",
+    "supertest": "3.1.0",
+    "zuul-ngrok": "4.0.0"
   },
   "directories": {},
   "dist": {
