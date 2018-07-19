@@ -1,0 +1,13 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "assets/socket.io/socket.io-adapter/package.json",
+        "assets/socket.io/socket.io-client/package.json",
+        "assets/socket.io/socket.io-parser/package.json",
+        "assets/socket.io/socket.io/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
