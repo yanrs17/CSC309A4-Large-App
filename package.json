@@ -14,19 +14,22 @@
     "expect.js": "^0.3.1",
     "express": "^4.14.0",
     "express-session": "^1.14.0",
-    "express-validator": "^2.20.8",
-    "mocha": "^2.5.3",
-    "nunjucks": "^2.4.2",
+    "express-validator": "^5.0.0",
+    "mocha": "^4.0.0",
+    "nunjucks": "^3.1.3",
     "path": "^0.12.7",
     "request": "^2.74.0",
-    "sequelize": "^3.23.6",
-    "socket.io": "^1.4.8",
-    "sqlite3": "^3.1.4"
+    "sequelize": "^4.17.2",
+    "socket.io": "^2.0.2",
+    "sqlite3": "^4.0.0",
+    "snyk": "^1.89.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -40,5 +43,6 @@
   "bugs": {
     "url": "https://github.com/yanrs17/CSC309A4-Large-App/issues"
   },
-  "homepage": "https://github.com/yanrs17/CSC309A4-Large-App#readme"
+  "homepage": "https://github.com/yanrs17/CSC309A4-Large-App#readme",
+  "snyk": true
 }
